@@ -1,5 +1,5 @@
 <?php
-    // Criando nossas variáveis para guardar as informações do formulário//
+    // Criando nossas variáveis para guardar as informações do formulário
     $nome=$_POST['name'];
     $telefone=$_POST['tel'];
     $email=$_POST['email'];
