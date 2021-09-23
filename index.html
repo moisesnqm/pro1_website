@@ -8,12 +8,10 @@
         <meta name="description" content="">
         <meta name="author" content="">
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
         <title>Pro1 Solutions</title>
-    <!--
-    SOFTY PINKO
-    https://templatemo.com/tm-535-softy-pinko
-    -->
+
 
         <!-- Additional CSS Files -->
         <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
@@ -25,673 +23,684 @@
         </head>
         
         <body>
-        
-        <!-- ***** Preloader Start ***** -->
-        <div id="preloader">
-            <div class="jumper">
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-        </div>  
-        <!-- ***** Preloader End ***** -->
-        
-        
-        <!-- ***** Header Area Start ***** -->
-        <header class="header-area header-sticky">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <nav class="main-nav">
-                            <!-- ***** Logo Start ***** -->
-                            <a href="#" class="logo">
-                                <img src="assets/images/logo.png" alt="Pro1 Solutions"/>
-                            </a>
-                            <!-- ***** Logo End ***** -->
-                            <!-- ***** Menu Start ***** -->
-                            <ul class="nav">
-                                <li><a href="#welcome" class="active">Home</a></li>
-                                <li><a href="#features">Missão</a></li>
-                                <li><a href="#work-process">Soluções</a></li>
-                            <!--    <li><a href="#testimonials">Cases</a></li>  -->
-                                <li><a href="#pricing-plans">Planos</a></li>
-                                <li><a href="#contact-us">Contato</a></li>
-                                <li><a href="acesso.html">Área do Parceiro</a></li>
-                            </ul>
-                            <a class='menu-trigger'>
-                                <span>Menu</span>
-                            </a>
-                            <!-- ***** Menu End ***** -->
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <!-- ***** Header Area End ***** -->
-
-        <!-- ***** Welcome Area Start ***** -->
-        <div class="welcome-area" id="welcome">
-
-            <!-- ***** Header Text Start ***** -->
-            <div class="header-text">
-                <div class="container">
-                    <div class="row">
-                        <div class="offset-xl-3 col-xl-6 offset-lg-2 col-lg-8 col-md-12 col-sm-12">
-                            <h1>Oferecemos a melhor <strong>estratégia</strong> para fazer seu <strong>negócio</strong> crescer!</h1>
-                            <p style="background-color: black;"> <strong style="color: red;">TROCAR</strong> <br> A PRO1 conta com mais de 20 anos de experiência no mercado moveleiro para trazer a melhor solução para o seu negócio. </p>
-                            <a href="#features" class="main-button-slider">Conheça nossas soluções</a>
+        <!-- Vue body -->
+        <div id="app"></div>
+        <!-- Vue js -->
+        <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+        <script>
+            new Vue({
+                el: '#app',
+                template: `
+                <div class="containerfull">
+                    <!-- ***** Preloader Start ***** -->
+                    <div id="preloader">
+                        <div class="jumper">
+                            <div></div>
+                            <div></div>
+                            <div></div>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <!-- ***** Header Text End ***** -->
-        </div>
-        <!-- ***** Welcome Area End ***** -->
-
-        <!-- ***** Features Small Start ***** -->
-        <section class="section home-feature">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="row">
-                            <!-- ***** Features Small Item Start ***** -->
-                            <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.2s">
-                                <div class="features-small-item">
-                                    <div class="icon">
-                                        <i><img src="assets/images/featured-item-01.png" alt=""></i>
-                                    </div>
-                                    <h5 class="features-title">Estratégia Moderna</h5>
-                                    <p>Receba pedidos de forma automática, já com todas as informações para produção.</p>
-                                </div>
-                            </div>
-                            <!-- ***** Features Small Item End ***** -->
-
-                            <!-- ***** Features Small Item Start ***** -->
-                            <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.4s">
-                                <div class="features-small-item">
-                                    <div class="icon">
-                                        <i><img src="assets/images/featured-item-01.png" alt=""></i>
-                                    </div>
-                                    <h5 class="features-title">Tecnologia</h5>
-                                    <p>Especializada em Softwares, a PRO1 usa tecnologias avançadas para trazer rapidez, eficiência e segurança para você!</p>
-                                </div>
-                            </div>
-                            <!-- ***** Features Small Item End ***** -->
-
-                            <!-- ***** Features Small Item Start ***** -->
-                            <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.6s">
-                                <div class="features-small-item">
-                                    <div class="icon">
-                                        <i><img src="assets/images/featured-item-01.png" alt=""></i>
-                                    </div>
-                                    <h5 class="features-title">Facilidade</h5>
-                                    <p>Diversas formas de trabalhar, você pode digitar manualmente ou usar softwares 3D para fazer projetos e renderizações.</p>
-                                </div>
-                            </div>
-                            <!-- ***** Features Small Item End ***** -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- ***** Features Small End ***** -->
-
-        <!-- ***** Features Big Item Start ***** -->
-        <section class="section padding-top-70 padding-bottom-0" id="features">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-5 col-md-12 col-sm-12 align-self-center" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
-                        <img src="assets/images/left-image.png" class="rounded img-fluid d-block mx-auto" alt="App">
-                    </div>
-                    <div class="col-lg-1"></div>
-                    <div class="col-lg-6 col-md-12 col-sm-12 align-self-center mobile-top-fix">
-                        <div class="left-heading">
-                            <h2 class="section-title">Vamos conversar sobre a melhor solução para o seu negócio!</h2>
-                        </div>
-                        <div class="left-text">
-                            <p>Nossa equipe está pronta para analisar o seu negócio e te encaixar na melhor forma de alavancar suas vendas, com tecnologia, inovação e o melhor, sem dor de cabeça!</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="hr"></div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- ***** Features Big Item End ***** -->
-
-        <!-- ***** Features Big Item Start ***** -->
-        <section class="section padding-bottom-100">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-12 col-sm-12 align-self-center mobile-bottom-fix">
-                        <div class="left-heading">
-                            <h2 class="section-title">Nós podemos te ajudar a alavancar suas vendas!</h2>
-                        </div>
-                        <div class="left-text">
-                            <p>Soluções e praticidade como nunca antes! Peça uma apresentação e veja que você pode otimizar o seu processo e alcançar novos mercados.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-1"></div>
-                    <div class="col-lg-5 col-md-12 col-sm-12 align-self-center mobile-bottom-fix-big" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
-                        <img src="assets/images/right-image.png" class="rounded img-fluid d-block mx-auto" alt="App">
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- ***** Features Big Item End ***** -->
-
-        <!-- ***** Home Parallax Start ***** -->
-        <section class="mini" id="work-process">
-            <div class="mini-content">
-                <div class="container">
-                    <div class="row">
-                        <div class="offset-lg-3 col-lg-6">
-                            <div class="info">
-                                <h1>Madeireiras e Centrais de Serviços</h1>
-                                <p>Entre o recebimento dos pedidos e a entrega são apenas X passos.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- ***** Mini Box Start ***** -->
-                    <div class="row">
-                        <div class="col-lg-2 col-md-3 col-sm-6 col-6">
-                        </div>
-                        <div class="col-lg-2 col-md-3 col-sm-6 col-6">
-                            <a href="#" class="mini-box">
-                                <i><img src="assets/images/work-process-item-01.png" alt=""></i>
-                                <strong>Confirmação</strong>
-                                <span>Confirme os pedidos disponíveis na central de pedidos Pro1. </span>
-                            </a>
-                        </div>
-                        <div class="col-lg-2 col-md-3 col-sm-6 col-6">
-                            <a href="#" class="mini-box">
-                                <i><img src="assets/images/work-process-item-01.png" alt=""></i>
-                                <strong>Receptação</strong>
-                                <span>Receba todo o material referente aos pedidos nas máquinas.</span>
-                            </a>
-                        </div>
-                        <div class="col-lg-2 col-md-3 col-sm-6 col-6">
-                            <a href="#" class="mini-box">
-                                <i><img src="assets/images/work-process-item-01.png" alt=""></i>
-                                <strong>Produção</strong>
-                                <span>Produza todo o pedido e informe na central de pedidos .</span>
-                            </a>
-                        </div>
-                        <div class="col-lg-2 col-md-3 col-sm-6 col-6">
-                            <a href="#" class="mini-box">
-                                <i><img src="assets/images/work-process-item-01.png" alt=""></i>
-                                <strong>Entrega</strong>
-                                <span>Entregue ou libere para retirada os pedidos produzidos.</span>
-                            </a>
-                        </div>
-
-                    </div>
-                    <!-- ***** Mini Box End ***** -->
-                    <div class="row">
-                        <div class="offset-lg-3 col-lg-6">
-                            <div class="info">
-                                <h1>Marcenarias, Lojas e Profissionais</h1>
-                                <p>Entre a criação e a produção, são simplesmente 4 passos.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- ***** Mini Box Start ***** -->
-                    <div class="row">
-                        <div class="col-lg-2 col-md-3 col-sm-6 col-6">
-                        </div>
-                        <div class="col-lg-2 col-md-3 col-sm-6 col-6">
-                            <a href="#" class="mini-box">
-                                <i><img src="assets/images/work-process-item-01.png" alt=""></i>
-                                <strong>Criação</strong>
-                                <span>Projete em 3D ou digite manualmente online ou offline.</span>
-                            </a>
-                        </div>
-                        <div class="col-lg-2 col-md-3 col-sm-6 col-6">
-                            <a href="#" class="mini-box">
-                                <i><img src="assets/images/work-process-item-01.png" alt=""></i>
-                                <strong>Implantação</strong>
-                                <span>Implante seu pedido na central de pedidos Pro1 Solutions</span>
-                            </a>
-                        </div>
-                        <div class="col-lg-2 col-md-3 col-sm-6 col-6">
-                            <a href="#" class="mini-box">
-                                <i><img src="assets/images/work-process-item-01.png" alt=""></i>
-                                <strong>Financeiro</strong>
-                                <span>Com o orçamento instantâneo, concretize sua venda!</span>
-                            </a>
-                        </div>
-                        <div class="col-lg-2 col-md-3 col-sm-6 col-6">
-                            <a href="#" class="mini-box">
-                                <i><img src="assets/images/work-process-item-01.png" alt=""></i>
-                                <strong>Produção</strong>
-                                <span><br>Com apenas 1 clique seu pedido vai para a produção.</span>
-                            </a>
-                        </div>
-
-                    </div>
-                    <!-- ***** Mini Box End ***** -->
-
-
-                </div>
-            </div>
-        </section>
-
-        
-
-        <!-- ***** Home Parallax End ***** -->
-
-        <!-- ***** Testimonials Start ***** --
-        <section class="section" id="testimonials">
-            <div class="container">
-                <!-- ***** Section Title Start ***** --
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="center-heading">
-                            <h2 class="section-title">O que as pessoas estão falando?</h2>
-                        </div>
-                    </div>
-                    <div class="offset-lg-3 col-lg-6">
-                        <div class="center-text">
-                            <p>Feedbacks de parceiros e clientes que usam nosso processo.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- ***** Section Title End ***** --
-
-                <div class="row">
-                    <!-- ***** Testimonials Item Start ***** --
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <div class="team-item">
-                            <div class="team-content">
-                                <i><img src="assets/images/testimonial-icon.png" alt=""></i>
-                                <p>blablabla bla bla bla bla bla bla</p>
-                                <div class="user-image">
-                                    <img src="http://placehold.it/60x60" alt="">
-                                </div>
-                                <div class="team-info">
-                                    <h3 class="user-name">Paulo Ciclano</h3>
-                                    <span>GMAD</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- ***** Testimonials Item End ***** --
+                    </div>  
+                    <!-- ***** Preloader End ***** -->
                     
-                    <!-- ***** Testimonials Item Start ***** --
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <div class="team-item">
-                            <div class="team-content">
-                                <i><img src="assets/images/testimonial-icon.png" alt=""></i>
-                                <p>blablabla bla bla bla bla bla bla</p>
-                                <div class="user-image">
-                                    <img src="http://placehold.it/60x60" alt="">
-                                </div>
-                                <div class="team-info">
-                                    <h3 class="user-name">João Fulano</h3>
-                                    <span>Palowa</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- ***** Testimonials Item End ***** --
                     
-                    <!-- ***** Testimonials Item Start ***** --
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <div class="team-item">
-                            <div class="team-content">
-                                <i><img src="assets/images/testimonial-icon.png" alt=""></i>
-                                <p>blablabla bla bla bla bla bla bla</p>
-                                <div class="user-image">
-                                    <img src="http://placehold.it/60x60" alt="">
-                                </div>
-                                <div class="team-info">
-                                    <h3 class="user-name">José Silva</h3>
-                                    <span>Paranaense</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- ***** Testimonials Item End ***** --
-                </div>
-            </div>
-        </section>
-        <!-- ***** Testimonials End ***** -->
-
-        <!-- ***** Pricing Plans Start ***** -->
-        <section class="section colored" id="pricing-plans">
-            <div class="container">
-                <!-- ***** Section Title Start ***** -->
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="center-heading">
-                            <h2 class="section-title">Planos</h2>
-                        </div>
-                    </div>
-                    <div class="offset-lg-3 col-lg-6">
-                        <div class="center-text">
-                            <p>Alguns de nossos planos para sua empresa.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- ***** Section Title End ***** -->
-
-                <div class="row">
-                    <!-- ***** Pricing Item Start ***** -->
-                    <div class="col-lg-3 col-md-6 col-sm-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.2s">
-                        <div class="pricing-item">
-                            <div class="pricing-header">
-                                <h3 class="pricing-title">Cloud BUSINESS</h3>
-                            </div>
-                            <div class="pricing-body">
-                                <div class="price-wrapper">
-                                    <span class="currency">R$</span>
-                                    <span class="price">FREE</span>
-                                </div>
-                                <ul class="list">
-                                    <li class="active">Listagem de Corte</li>
-                                    <li class="active">Listagem Bordeamento</li>
-                                    <li class="active">Listagem de Ferragens</li>
-                                    <li class="active">Furo Dobradiça</li>
-                                    <li class="active">Rasgo de Canal</li>
-                                    <li>Furação paramétrica</li>
-                                </ul>
-                            </div>
-                            <div class="pricing-footer">
-                                <a href="#contact-us" class="main-button">Peça já uma apresentação</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- ***** Pricing Item End ***** -->
-
-                    <!-- ***** Pricing Item Start ***** -->
-                    <div class="col-lg-3 col-md-6 col-sm-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.2s">
-                        <div class="pricing-item">
-                            <div class="pricing-header">
-                                <h3 class="pricing-title">Cloud START</h3>
-                            </div>
-                            <div class="pricing-body">
-                                <div class="price-wrapper">
-                                    <span class="currency">R$</span>
-                                    <span class="price">Consulte</span>
-                                </div>
-                                <ul class="list">
-                                    <li class="active">Listagem de Corte</li>
-                                    <li class="active">Listagem Bordeamento</li>
-                                    <li class="active">Listagem de Ferragens</li>
-                                    <li class="active">Furo Dobradiça</li>
-                                    <li class="active">Rasgo de Canal</li>
-                                    <li>Furação paramétrica</li>
-                                </ul>
-                            </div>
-                            <div class="pricing-footer">
-                                <a href="#contact-us" class="main-button">Peça já uma apresentação</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- ***** Pricing Item End ***** -->
-
-                    <!-- ***** Pricing Item Start ***** -->
-                    <div class="col-lg-3 col-md-6 col-sm-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.4s">
-                        <div class="pricing-item active">
-                            <div class="pricing-header">
-                                <h3 class="pricing-title">Cloud PRIME</h3>
-                            </div>
-                            <div class="pricing-body">
-                                <div class="price-wrapper">
-                                    <span class="currency">R$</span>
-                                    <span class="price">Consulte</span>
-                                </div>
-                                <ul class="list">
-                                    <li class="active">Listagem de Corte</li>
-                                    <li class="active">Listagem Bordeamento</li>
-                                    <li class="active">Listagem de Ferragens</li>
-                                    <li class="active">Furo Dobradiça</li>
-                                    <li class="active">Rasgo de Canal</li>
-                                    <li class="active">Furação paramétrica</li>
-                                </ul>
-                            </div>
-                            <div class="pricing-footer">
-                                <a href="#contact-us" class="main-button">Peça já uma apresentação</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- ***** Pricing Item End ***** -->
-
-                    <!-- ***** Pricing Item Start ***** -->
-                    <div class="col-lg-3 col-md-6 col-sm-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.6s">
-                        <div class="pricing-item">
-                            <div class="pricing-header">
-                                <h3 class="pricing-title">Cloud PRO</h3>
-                            </div>
-                            <div class="pricing-body">
-                                <div class="price-wrapper">
-                                    <span class="currency">R$</span>
-                                    <span class="currency">Consulte</span>
-                                </div>
-                                <ul class="list">
-                                    <li class="active">Listagem de Corte</li>
-                                    <li class="active">Listagem Bordeamento</li>
-                                    <li class="active">Listagem de Ferragens</li>
-                                    <li class="active">Furo Dobradiça</li>
-                                    <li class="active">Rasgo de Canal</li>
-                                    <li class="active">Furação <strong>projetada</strong></li>
-                                </ul>
-                            </div>
-                            <div class="pricing-footer">
-                                <a href="#contact-us" class="main-button">PEÇA JÁ UMA APRESENTAÇÃO</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- ***** Pricing Item End ***** -->
-                </div>
-            </div>
-        </section>
-        <!-- ***** Pricing Plans End ***** -->
-
-        <!-- ***** Counter Parallax Start ***** -->
-        <section class="counter">
-            <div class="content">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                            <div class="count-item decoration-bottom">
-                                <strong>526</strong>
-                                <span>Projetos</span>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                            <div class="count-item decoration-top">
-                                <strong>43</strong>
-                                <span>Clientes Satisfeitos</span>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                            <div class="count-item decoration-bottom">
-                                <strong>18</strong>
-                                <span>Cidades</span>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                            <div class="count-item">
-                                <strong>3</strong>
-                                <span>Estados</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- ***** Counter Parallax End ***** -->   
-
-        <!-- ***** Blog Start ***** --
-        <section class="section" id="blog">
-            <div class="container">
-                <!-- ***** Section Title Start ***** --
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="center-heading">
-                            <h2 class="section-title">Blog Entries</h2>
-                        </div>
-                    </div>
-                    <div class="offset-lg-3 col-lg-6">
-                        <div class="center-text">
-                            <p>Integer molestie aliquam gravida. Nullam nec arcu finibus, imperdiet nulla vitae, placerat nibh. Cras maximus venenatis molestie.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- ***** Section Title End ***** --
-
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <div class="blog-post-thumb">
-                            <div class="img">
-                                <img src="assets/images/blog-item-01.png" alt="">
-                            </div>
-                            <div class="blog-content">
-                                <h3>
-                                    <a href="#">Vivamus ac vehicula dui</a>
-                                </h3>
-                                <div class="text">
-                                Cras aliquet ligula dui, vitae fermentum velit tincidunt id. Praesent eu finibus nunc. Nulla in sagittis eros. Aliquam egestas augue.
-                                </div>
-                                <a href="#" class="main-button">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <div class="blog-post-thumb">
-                            <div class="img">
-                                <img src="assets/images/blog-item-02.png" alt="">
-                            </div>
-                            <div class="blog-content">
-                                <h3>
-                                    <a href="#">Phasellus convallis augue</a>
-                                </h3>
-                                <div class="text">
-                                    Aliquam commodo ornare nisl, et scelerisque nisl dignissim ac. Vestibulum finibus urna ut velit venenatis, vel ultrices sapien mattis.
-                                </div>
-                                <a href="#" class="main-button">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <div class="blog-post-thumb">
-                            <div class="img">
-                                <img src="assets/images/blog-item-03.png" alt="">
-                            </div>
-                            <div class="blog-content">
-                                <h3>
-                                    <a href="#">Nam gravida purus non</a>
-                                </h3>
-                                <div class="text">
-                                    Maecenas eu erat vitae dui convallis consequat vel gravida nulla. Vestibulum finibus euismod odio, ut tempus enim varius eu.
-                                </div>
-                                <a href="#" class="main-button">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- ***** Blog End ***** -->
-
-        <!-- ***** Contact Us Start ***** -->
-        <section class="section colored" id="contact-us">
-            <div class="container">
-                <!-- ***** Section Title Start ***** -->
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="center-heading">
-                            <h2 class="section-title">Vamos conversar?</h2>
-                        </div>
-                    </div>
-                    <div class="offset-lg-3 col-lg-6">
-                        <div class="center-text">
-                            <p>Envie seu contato e nossa equipe entrará em contato o mais <strong>rápido</strong> possível!</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- ***** Section Title End ***** -->
-
-                <div class="row">
-                    <!-- ***** Contact Text Start ***** -->
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <h5 class="margin-bottom-30">Leia ou clique no QR Code abaixo, para nos contactar direto pelo WhatsApp.</h5>
-                        <a href="http://www.pro1solutions.com.br/contatodireto" target="_blank"><img src="assets/images/qrcode.jpg" width="130" height="130" alt=""/></a>
-                        <div class="contact-text">
-                            <br>
-                            <p>Ou se preferir, use o formulário ao lado para nos deixar uma mensagem, retornaremos o mais rápido
-                            possível.</p>
-                            
-                        </div>
-                    </div>
-                    <!-- ***** Contact Text End ***** -->
-
-                    <!-- ***** Contact Form Start ***** -->
-                    <div class="col-lg-8 col-md-6 col-sm-12">
-                        <div class="contact-form">
-                            <form id="contact" action="enviar-email.php" method="post">
+                    <!-- ***** Header Area Start ***** -->
+                    <header class="header-area header-sticky">
+                        <div class="container">
                             <div class="row">
-                                <div class="col-lg-6 col-md-12 col-sm-12">
-                                <fieldset>
-                                    <input name="name" type="text" class="form-control" id="name" placeholder="Nome Completo" required="">
-                                </fieldset>
-                                </div>
-                                <div class="col-lg-6 col-md-12 col-sm-12">
-                                <fieldset>
-                                    <input name="tel" type="tel" class="form-control" id="tel" placeholder="Celular" required="">
-                                </fieldset>
-                                </div>
-                                <div class="col-lg-6 col-md-12 col-sm-12">
-                                <fieldset>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="E-Mail" required="">
-                                </fieldset>
-                                </div>
-                                <div class="col-lg-12">
-                                <fieldset>
-                                    <textarea name="message" rows="6" class="form-control" id="message" placeholder="Escreva sua mensagem." required=""></textarea>
-                                </fieldset>
-                                </div>
-                                <div class="col-lg-12">
-                                <fieldset>
-                                    <button type="submit" id="form-submit" class="main-button">Enviar</button>
-                                </fieldset>
+                                <div class="col-12">
+                                    <nav class="main-nav">
+                                        <!-- ***** Logo Start ***** -->
+                                        <a href="#" class="logo">
+                                            <img src="assets/images/logo.png" alt="Pro1 Solutions"/>
+                                        </a>
+                                        <!-- ***** Logo End ***** -->
+                                        <!-- ***** Menu Start ***** -->
+                                        <ul class="nav">
+                                            <li><a href="#welcome" class="active">Home</a></li>
+                                            <li><a href="#features">Missão</a></li>
+                                            <li><a href="#work-process">Soluções</a></li>
+                                        <!--    <li><a href="#testimonials">Cases</a></li>  -->
+                                            <li><a href="#pricing-plans">Planos</a></li>
+                                            <li><a href="#contact-us">Contato</a></li>
+                                            <li><a href="https://app.pro1solutions.com.br" target="_blank">Área do Parceiro</a></li>
+                                        </ul>
+                                        <a class='menu-trigger'>
+                                            <span>Menu</span>
+                                        </a>
+                                        <!-- ***** Menu End ***** -->
+                                    </nav>
                                 </div>
                             </div>
-                            </form>
                         </div>
+                    </header>
+                    <!-- ***** Header Area End ***** -->
+
+                    <!-- ***** Welcome Area Start ***** -->
+                    <div class="welcome-area" id="welcome">
+
+                        <!-- ***** Header Text Start ***** -->
+                        <div class="header-text">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="offset-xl-3 col-xl-6 offset-lg-2 col-lg-8 col-md-12 col-sm-12">
+                                        <h1>Oferecemos a melhor <strong>estratégia</strong> para fazer seu <strong>negócio</strong> crescer!</h1>
+                                        <a href="#features" class="main-button-slider">Conheça nossas soluções</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ***** Header Text End ***** -->
                     </div>
-                    <!-- ***** Contact Form End ***** -->
+                    <!-- ***** Welcome Area End ***** -->
+
+                    <!-- ***** Features Small Start ***** -->
+                    <section class="section home-feature">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="row">
+                                        <!-- ***** Features Small Item Start ***** -->
+                                        <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.2s">
+                                            <div class="features-small-item">
+                                                <div class="icon">
+                                                    <i><img src="assets/images/featured-item-01.png" alt=""></i>
+                                                </div>
+                                                <h5 class="features-title">Estratégia Moderna</h5>
+                                                <p>Receba pedidos de forma automática, já com todas as informações para produção.</p>
+                                            </div>
+                                        </div>
+                                        <!-- ***** Features Small Item End ***** -->
+
+                                        <!-- ***** Features Small Item Start ***** -->
+                                        <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.4s">
+                                            <div class="features-small-item">
+                                                <div class="icon">
+                                                    <i><img src="assets/images/featured-item-01.png" alt=""></i>
+                                                </div>
+                                                <h5 class="features-title">Tecnologia</h5>
+                                                <p>Especializada em Softwares, a PRO1 usa tecnologias avançadas para trazer rapidez, eficiência e segurança para você!</p>
+                                            </div>
+                                        </div>
+                                        <!-- ***** Features Small Item End ***** -->
+
+                                        <!-- ***** Features Small Item Start ***** -->
+                                        <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.6s">
+                                            <div class="features-small-item">
+                                                <div class="icon">
+                                                    <i><img src="assets/images/featured-item-01.png" alt=""></i>
+                                                </div>
+                                                <h5 class="features-title">Facilidade</h5>
+                                                <p>Diversas formas de trabalhar, você pode digitar manualmente ou usar softwares 3D para fazer projetos e renderizações.</p>
+                                            </div>
+                                        </div>
+                                        <!-- ***** Features Small Item End ***** -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- ***** Features Small End ***** -->
+
+                    <!-- ***** Features Big Item Start ***** -->
+                    <section class="section padding-top-70 padding-bottom-0" id="features">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-5 col-md-12 col-sm-12 align-self-center" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                                    <img src="assets/images/left-image.png" class="rounded img-fluid d-block mx-auto" alt="App">
+                                </div>
+                                <div class="col-lg-1"></div>
+                                <div class="col-lg-6 col-md-12 col-sm-12 align-self-center mobile-top-fix">
+                                    <div class="left-heading">
+                                        <h2 class="section-title">Vamos conversar sobre a melhor solução para o seu negócio!</h2>
+                                    </div>
+                                    <div class="left-text">
+                                        <p>Nossa equipe está pronta para analisar o seu negócio e te encaixar na melhor forma de alavancar suas vendas, com tecnologia, inovação e o melhor, sem dor de cabeça!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="hr"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- ***** Features Big Item End ***** -->
+
+                    <!-- ***** Features Big Item Start ***** -->
+                    <section class="section padding-bottom-100">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-12 col-sm-12 align-self-center mobile-bottom-fix">
+                                    <div class="left-heading">
+                                        <h2 class="section-title">Nós podemos te ajudar a alavancar suas vendas!</h2>
+                                    </div>
+                                    <div class="left-text">
+                                        <p>Soluções e praticidade como nunca antes! Peça uma apresentação e veja que você pode otimizar o seu processo e alcançar novos mercados.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-1"></div>
+                                <div class="col-lg-5 col-md-12 col-sm-12 align-self-center mobile-bottom-fix-big" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
+                                    <img src="assets/images/right-image.png" class="rounded img-fluid d-block mx-auto" alt="App">
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- ***** Features Big Item End ***** -->
+
+                    <!-- ***** Home Parallax Start ***** -->
+                    <section class="mini" id="work-process">
+                        <div class="mini-content">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="offset-lg-3 col-lg-6">
+                                        <div class="info">
+                                            <h1>Madeireiras e Centrais de Serviços</h1>
+                                            <p>Entre o recebimento dos pedidos e a entrega são apenas X passos.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- ***** Mini Box Start ***** -->
+                                <div class="row">
+                                    <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+                                    </div>
+                                    <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+                                        <a href="#" class="mini-box">
+                                            <i><img src="assets/images/work-process-item-01.png" alt=""></i>
+                                            <strong>Confirmação</strong>
+                                            <span>Confirme os pedidos disponíveis na central de pedidos Pro1. </span>
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+                                        <a href="#" class="mini-box">
+                                            <i><img src="assets/images/work-process-item-01.png" alt=""></i>
+                                            <strong>Receptação</strong>
+                                            <span>Receba todo o material referente aos pedidos nas máquinas.</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+                                        <a href="#" class="mini-box">
+                                            <i><img src="assets/images/work-process-item-01.png" alt=""></i>
+                                            <strong>Produção</strong>
+                                            <span>Produza todo o pedido e informe na central de pedidos .</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+                                        <a href="#" class="mini-box">
+                                            <i><img src="assets/images/work-process-item-01.png" alt=""></i>
+                                            <strong>Entrega</strong>
+                                            <span>Entregue ou libere para retirada os pedidos produzidos.</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                                <!-- ***** Mini Box End ***** -->
+                                <div class="row">
+                                    <div class="offset-lg-3 col-lg-6">
+                                        <div class="info">
+                                            <h1>Marcenarias, Lojas e Profissionais</h1>
+                                            <p>Entre a criação e a produção, são simplesmente 4 passos.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- ***** Mini Box Start ***** -->
+                                <div class="row">
+                                    <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+                                    </div>
+                                    <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+                                        <a href="#" class="mini-box">
+                                            <i><img src="assets/images/work-process-item-01.png" alt=""></i>
+                                            <strong>Criação</strong>
+                                            <span>Projete em 3D ou digite manualmente online ou offline.</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+                                        <a href="#" class="mini-box">
+                                            <i><img src="assets/images/work-process-item-01.png" alt=""></i>
+                                            <strong>Implantação</strong>
+                                            <span>Implante seu pedido na central de pedidos Pro1 Solutions</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+                                        <a href="#" class="mini-box">
+                                            <i><img src="assets/images/work-process-item-01.png" alt=""></i>
+                                            <strong>Financeiro</strong>
+                                            <span>Com o orçamento instantâneo, concretize sua venda!</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+                                        <a href="#" class="mini-box">
+                                            <i><img src="assets/images/work-process-item-01.png" alt=""></i>
+                                            <strong>Produção</strong>
+                                            <span><br>Com apenas 1 clique seu pedido vai para a produção.</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                                <!-- ***** Mini Box End ***** -->
+
+
+                            </div>
+                        </div>
+                    </section>
+
+                    
+
+                    <!-- ***** Home Parallax End ***** -->
+
+                    <!-- ***** Testimonials Start ***** --
+                    <section class="section" id="testimonials">
+                        <div class="container">
+                            <!-- ***** Section Title Start ***** --
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="center-heading">
+                                        <h2 class="section-title">O que as pessoas estão falando?</h2>
+                                    </div>
+                                </div>
+                                <div class="offset-lg-3 col-lg-6">
+                                    <div class="center-text">
+                                        <p>Feedbacks de parceiros e clientes que usam nosso processo.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ***** Section Title End ***** --
+
+                            <div class="row">
+                                <!-- ***** Testimonials Item Start ***** --
+                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                    <div class="team-item">
+                                        <div class="team-content">
+                                            <i><img src="assets/images/testimonial-icon.png" alt=""></i>
+                                            <p>blablabla bla bla bla bla bla bla</p>
+                                            <div class="user-image">
+                                                <img src="http://placehold.it/60x60" alt="">
+                                            </div>
+                                            <div class="team-info">
+                                                <h3 class="user-name">Paulo Ciclano</h3>
+                                                <span>GMAD</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ***** Testimonials Item End ***** --
+                                
+                                <!-- ***** Testimonials Item Start ***** --
+                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                    <div class="team-item">
+                                        <div class="team-content">
+                                            <i><img src="assets/images/testimonial-icon.png" alt=""></i>
+                                            <p>blablabla bla bla bla bla bla bla</p>
+                                            <div class="user-image">
+                                                <img src="http://placehold.it/60x60" alt="">
+                                            </div>
+                                            <div class="team-info">
+                                                <h3 class="user-name">João Fulano</h3>
+                                                <span>Palowa</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ***** Testimonials Item End ***** --
+                                
+                                <!-- ***** Testimonials Item Start ***** --
+                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                    <div class="team-item">
+                                        <div class="team-content">
+                                            <i><img src="assets/images/testimonial-icon.png" alt=""></i>
+                                            <p>blablabla bla bla bla bla bla bla</p>
+                                            <div class="user-image">
+                                                <img src="http://placehold.it/60x60" alt="">
+                                            </div>
+                                            <div class="team-info">
+                                                <h3 class="user-name">José Silva</h3>
+                                                <span>Paranaense</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ***** Testimonials Item End ***** --
+                            </div>
+                        </div>
+                    </section>
+                    <!-- ***** Testimonials End ***** -->
+
+                    <!-- ***** Pricing Plans Start ***** -->
+                    <section class="section colored" id="pricing-plans">
+                        <div class="container">
+                            <!-- ***** Section Title Start ***** -->
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="center-heading">
+                                        <h2 class="section-title">Planos</h2>
+                                    </div>
+                                </div>
+                                <div class="offset-lg-3 col-lg-6">
+                                    <div class="center-text">
+                                        <p>Alguns de nossos planos para sua empresa.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ***** Section Title End ***** -->
+
+                            <div class="row">
+                                <!-- ***** Pricing Item Start ***** -->
+                                <div class="col-lg-3 col-md-6 col-sm-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.2s">
+                                    <div class="pricing-item">
+                                        <div class="pricing-header">
+                                            <h3 class="pricing-title">Cloud BUSINESS</h3>
+                                        </div>
+                                        <div class="pricing-body">
+                                            <div class="price-wrapper">
+                                                <span class="currency">R$</span>
+                                                <span class="price">FREE</span>
+                                            </div>
+                                            <ul class="list">
+                                                <li class="active">Listagem de Corte</li>
+                                                <li class="active">Listagem Bordeamento</li>
+                                                <li class="active">Listagem de Ferragens</li>
+                                                <li class="active">Furo Dobradiça</li>
+                                                <li class="active">Rasgo de Canal</li>
+                                                <li>Furação paramétrica</li>
+                                            </ul>
+                                        </div>
+                                        <div class="pricing-footer">
+                                            <a href="#contact-us" class="main-button">Peça já uma apresentação</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ***** Pricing Item End ***** -->
+
+                                <!-- ***** Pricing Item Start ***** -->
+                                <div class="col-lg-3 col-md-6 col-sm-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.2s">
+                                    <div class="pricing-item">
+                                        <div class="pricing-header">
+                                            <h3 class="pricing-title">Cloud START</h3>
+                                        </div>
+                                        <div class="pricing-body">
+                                            <div class="price-wrapper">
+                                                <span class="currency">R$</span>
+                                                <span class="price">Consulte</span>
+                                            </div>
+                                            <ul class="list">
+                                                <li class="active">Listagem de Corte</li>
+                                                <li class="active">Listagem Bordeamento</li>
+                                                <li class="active">Listagem de Ferragens</li>
+                                                <li class="active">Furo Dobradiça</li>
+                                                <li class="active">Rasgo de Canal</li>
+                                                <li>Furação paramétrica</li>
+                                            </ul>
+                                        </div>
+                                        <div class="pricing-footer">
+                                            <a href="#contact-us" class="main-button">Peça já uma apresentação</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ***** Pricing Item End ***** -->
+
+                                <!-- ***** Pricing Item Start ***** -->
+                                <div class="col-lg-3 col-md-6 col-sm-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.4s">
+                                    <div class="pricing-item active">
+                                        <div class="pricing-header">
+                                            <h3 class="pricing-title">Cloud PRIME</h3>
+                                        </div>
+                                        <div class="pricing-body">
+                                            <div class="price-wrapper">
+                                                <span class="currency">R$</span>
+                                                <span class="price">Consulte</span>
+                                            </div>
+                                            <ul class="list">
+                                                <li class="active">Listagem de Corte</li>
+                                                <li class="active">Listagem Bordeamento</li>
+                                                <li class="active">Listagem de Ferragens</li>
+                                                <li class="active">Furo Dobradiça</li>
+                                                <li class="active">Rasgo de Canal</li>
+                                                <li class="active">Furação paramétrica</li>
+                                            </ul>
+                                        </div>
+                                        <div class="pricing-footer">
+                                            <a href="#contact-us" class="main-button">Peça já uma apresentação</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ***** Pricing Item End ***** -->
+
+                                <!-- ***** Pricing Item Start ***** -->
+                                <div class="col-lg-3 col-md-6 col-sm-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.6s">
+                                    <div class="pricing-item">
+                                        <div class="pricing-header">
+                                            <h3 class="pricing-title">Cloud PRO</h3>
+                                        </div>
+                                        <div class="pricing-body">
+                                            <div class="price-wrapper">
+                                                <span class="currency">R$</span>
+                                                <span class="currency">Consulte</span>
+                                            </div>
+                                            <ul class="list">
+                                                <li class="active">Listagem de Corte</li>
+                                                <li class="active">Listagem Bordeamento</li>
+                                                <li class="active">Listagem de Ferragens</li>
+                                                <li class="active">Furo Dobradiça</li>
+                                                <li class="active">Rasgo de Canal</li>
+                                                <li class="active">Furação <strong>projetada</strong></li>
+                                            </ul>
+                                        </div>
+                                        <div class="pricing-footer">
+                                            <a href="#contact-us" class="main-button">PEÇA JÁ UMA APRESENTAÇÃO</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ***** Pricing Item End ***** -->
+                            </div>
+                        </div>
+                    </section>
+                    <!-- ***** Pricing Plans End ***** -->
+
+                    <!-- ***** Counter Parallax Start ***** -->
+                    <section class="counter">
+                        <div class="content">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <div class="count-item decoration-bottom">
+                                            <strong>526</strong>
+                                            <span>Projetos</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <div class="count-item decoration-top">
+                                            <strong>43</strong>
+                                            <span>Clientes Satisfeitos</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <div class="count-item decoration-bottom">
+                                            <strong>18</strong>
+                                            <span>Cidades</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <div class="count-item">
+                                            <strong>3</strong>
+                                            <span>Estados</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- ***** Counter Parallax End ***** -->   
+
+                    <!-- ***** Blog Start ***** --
+                    <section class="section" id="blog">
+                        <div class="container">
+                            <!-- ***** Section Title Start ***** --
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="center-heading">
+                                        <h2 class="section-title">Blog Entries</h2>
+                                    </div>
+                                </div>
+                                <div class="offset-lg-3 col-lg-6">
+                                    <div class="center-text">
+                                        <p>Integer molestie aliquam gravida. Nullam nec arcu finibus, imperdiet nulla vitae, placerat nibh. Cras maximus venenatis molestie.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ***** Section Title End ***** --
+
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                    <div class="blog-post-thumb">
+                                        <div class="img">
+                                            <img src="assets/images/blog-item-01.png" alt="">
+                                        </div>
+                                        <div class="blog-content">
+                                            <h3>
+                                                <a href="#">Vivamus ac vehicula dui</a>
+                                            </h3>
+                                            <div class="text">
+                                            Cras aliquet ligula dui, vitae fermentum velit tincidunt id. Praesent eu finibus nunc. Nulla in sagittis eros. Aliquam egestas augue.
+                                            </div>
+                                            <a href="#" class="main-button">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                    <div class="blog-post-thumb">
+                                        <div class="img">
+                                            <img src="assets/images/blog-item-02.png" alt="">
+                                        </div>
+                                        <div class="blog-content">
+                                            <h3>
+                                                <a href="#">Phasellus convallis augue</a>
+                                            </h3>
+                                            <div class="text">
+                                                Aliquam commodo ornare nisl, et scelerisque nisl dignissim ac. Vestibulum finibus urna ut velit venenatis, vel ultrices sapien mattis.
+                                            </div>
+                                            <a href="#" class="main-button">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                    <div class="blog-post-thumb">
+                                        <div class="img">
+                                            <img src="assets/images/blog-item-03.png" alt="">
+                                        </div>
+                                        <div class="blog-content">
+                                            <h3>
+                                                <a href="#">Nam gravida purus non</a>
+                                            </h3>
+                                            <div class="text">
+                                                Maecenas eu erat vitae dui convallis consequat vel gravida nulla. Vestibulum finibus euismod odio, ut tempus enim varius eu.
+                                            </div>
+                                            <a href="#" class="main-button">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- ***** Blog End ***** -->
+
+                    <!-- ***** Contact Us Start ***** -->
+                    <section class="section colored" id="contact-us">
+                        <div class="container">
+                            <!-- ***** Section Title Start ***** -->
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="center-heading">
+                                        <h2 class="section-title">Vamos conversar?</h2>
+                                    </div>
+                                </div>
+                                <div class="offset-lg-3 col-lg-6">
+                                    <div class="center-text">
+                                        <p>Envie seu contato e nossa equipe entrará em contato o mais <strong>rápido</strong> possível!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ***** Section Title End ***** -->
+
+                            <div class="row">
+                                <!-- ***** Contact Text Start ***** -->
+                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                    <h5 class="margin-bottom-30">Leia ou clique no QR Code abaixo, para nos contactar direto pelo WhatsApp.</h5>
+                                    <a href="http://www.pro1solutions.com.br/contatodireto" target="_blank"><img src="assets/images/qrcode.jpg" width="130" height="130" alt=""/></a>
+                                    <div class="contact-text">
+                                        <br>
+                                        <p>Ou se preferir, use o formulário ao lado para nos deixar uma mensagem, retornaremos o mais rápido
+                                        possível.</p>
+                                        
+                                    </div>
+                                </div>
+                                <!-- ***** Contact Text End ***** -->
+
+                                <!-- ***** Contact Form Start ***** -->
+                                <div class="col-lg-8 col-md-6 col-sm-12">
+                                    <div class="contact-form">
+                                        <form id="contact" action="enviar-email.php" method="post">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-12 col-sm-12">
+                                            <fieldset>
+                                                <input name="name" type="text" class="form-control" id="name" placeholder="Nome Completo" required="">
+                                            </fieldset>
+                                            </div>
+                                            <div class="col-lg-6 col-md-12 col-sm-12">
+                                            <fieldset>
+                                                <input name="tel" type="tel" class="form-control" id="tel" placeholder="Celular" required="">
+                                            </fieldset>
+                                            </div>
+                                            <div class="col-lg-6 col-md-12 col-sm-12">
+                                            <fieldset>
+                                                <input name="email" type="email" class="form-control" id="email" placeholder="E-Mail" required="">
+                                            </fieldset>
+                                            </div>
+                                            <div class="col-lg-12">
+                                            <fieldset>
+                                                <textarea name="message" rows="6" class="form-control" id="message" placeholder="Escreva sua mensagem." required=""></textarea>
+                                            </fieldset>
+                                            </div>
+                                            <div class="col-lg-12">
+                                            <fieldset>
+                                                <button type="submit" id="form-submit" class="main-button">Enviar</button>
+                                            </fieldset>
+                                            </div>
+                                        </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <!-- ***** Contact Form End ***** -->
+                            </div>
+                        </div>
+                    </section>
+                    <!-- ***** Contact Us End ***** -->
+                    
+                    <!-- ***** Footer Start ***** -->
+                    <footer>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <ul class="social">
+                                        <li><a href=https://www.facebook.com/pro1solutions><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                        <li><a href=https://www.instagram.com/pro1.solutions/><i class="fa fa-instagram"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <p class="copyright">Todos os direitos reservados &copy; 2020 Pro1 Solutions</p>
+                                </div>
+                            </div>
+                        </div>
+                    </footer>
                 </div>
-            </div>
-        </section>
-        <!-- ***** Contact Us End ***** -->
-        
-        <!-- ***** Footer Start ***** -->
-        <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12">
-                        <ul class="social">
-                            <li><a href=https://www.facebook.com/pro1solutions><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href=https://www.instagram.com/pro1.solutions/><i class="fa fa-instagram"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <p class="copyright">Todos os direitos reservados &copy; 2020 Pro1 Solutions</p>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        
+                `
+            })
+        </script>
+
         <!-- jQuery -->
         <script src="assets/js/jquery-2.1.0.min.js"></script>
 
@@ -707,6 +716,8 @@
         
         <!-- Global Init -->
         <script src="assets/js/custom.js"></script>
+
+
 
     </body>
     </html>
