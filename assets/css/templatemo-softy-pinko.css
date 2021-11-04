@@ -594,6 +594,7 @@ header
   }
   .header-area .main-nav .nav {
     float: none;
+    left: 1%;
     width: 100%;
     margin-top: 80px !important;
     display: none;
